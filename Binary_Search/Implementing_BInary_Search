@@ -1,0 +1,23 @@
+def Binary_search(nums,target):
+
+    s,e= 0,len(nums)-1
+
+    while s <= e :
+
+        mid = (s + e)//2
+
+        if nums[mid] < target :
+            s = mid+1
+        elif nums[mid] > target :
+            e = mid-1
+        else : return mid
+
+
+
+
+
+nums = [-1,0,2,4,6,8]
+target = 4
+
+ans = Binary_search(nums,target)
+print(ans)
