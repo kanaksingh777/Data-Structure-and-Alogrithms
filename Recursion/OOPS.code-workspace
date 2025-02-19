@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"name": "OOPS",
+			"path": "../../OOPS"
+		},
+		{
+			"name": "Sliding_window",
+			"path": "../../Sliding_window"
+		},
+		{
+			"name": "DSA",
+			"path": ".."
+		},
+		{
+			"name": "Databricks and pyspark",
+			"path": "../../Databricks and pyspark"
+		}
+	],
+	"settings": {}
+}
