@@ -4,9 +4,9 @@
 def top_k_elems(nums,k):
     hashmap ={}
 
-    freq_elements = [[] for i in range(len(nums)-1)]
+    freq_elements = [[] for i in range(len(nums)+1)]
     
-    for  i in range(len(nums)-1):
+    for  i in range(len(nums)):
         hashmap[nums[i]] = hashmap.get(nums[i],0) +1 
 
     for k,v in hashmap.items():
@@ -21,15 +21,8 @@ def top_k_elems(nums,k):
                 return res
             
 
-        
-        
 
 
-
-
-
-
-
-nums = [1,2,2,3,3,3,4,4,4,4]
+nums = [1,1,1,2,2,3]
 k = 2
 top_k_elems(nums,k)
