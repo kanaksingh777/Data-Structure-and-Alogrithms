@@ -1,4 +1,4 @@
-def prodexceptself(nums):
+def productExceptSelf(nums):
 
     prefix_array = []
 
@@ -32,5 +32,5 @@ def prodexceptself(nums):
 
 
 nums = [-1,0,1,2,3]
-ans = prodexceptself(nums)
+ans = productExceptSelf(nums)
 print(ans)
