@@ -69,7 +69,7 @@ class LL:
             prev =curr
             curr=temp  
 
-        return prev
+        
 s = Node(1)
 
 print(s.next)
