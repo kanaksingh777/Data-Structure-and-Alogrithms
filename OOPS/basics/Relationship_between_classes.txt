@@ -1,0 +1,18 @@
+ 
+
+           -----aggregation(has a) ---------------------------RELATIONSHIP-----------------(is a)---------inheritence ---------------
+
+
+           smartphone is a product
+           car is a vehicle 
+           vehicle ki property car ko mil jati h 
+
+
+
+
+
+aggregation
+
+
+customer  has a address
+agar iss class ko dusri class chaiye , that is aggregation 

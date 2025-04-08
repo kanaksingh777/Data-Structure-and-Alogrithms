@@ -1,0 +1,13 @@
+polymorphism
+
+#method overriding
+#method overloading 
+#operator overloading
+
+#method overriding - method with the same name exists in the parent and the child class , if the object of a child class is created the object 
+will call the child class method 
+
+--real world -- u could have joined the parent business but you choose what u want
+
+# if a child class doesn't have a constructor , then the constructor for the parent class gets called , but if the child class has a constructor
+#the constructor for the parent class gets invoked. 

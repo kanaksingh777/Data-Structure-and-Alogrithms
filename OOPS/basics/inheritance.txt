@@ -1,0 +1,38 @@
+car is a vehicle
+
+DRY -- don't repeat yourself
+
+
+inhertiance gives you code reusability
+
+
+
+PARENT CLASS 
+
+CHILD CLASS ---  data members (variable)   , all methods , constructors
+
+private members are not inherited 
+
+
+
+SINGLE LEVEL                           MULTILEVEL                      Hierarchical                     Multiple (Java does not have this)
+ 
+-parent                                 -parent(dada)                   parent                             parent   mother
+
+                                        -parent(papa)                  child1  child2                         child
+
+-child                                  -child
+
+
+
+HYbrid inheritence
+
+
+
+  dada 
+
+  parent
+
+  c1 c2 
+
+  c3

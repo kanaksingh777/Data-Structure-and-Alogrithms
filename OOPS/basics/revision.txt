@@ -1,0 +1,48 @@
+classes and  objects
+
+-- everything in python is an object
+-- if we declare a variable let's say
+ans = 5
+this basically means that the ans is isntance for integer class and is a object literal
+
+ans = int()
+
+__init__ is a constructor -- a constructor runs automatically whenever a class instance is created
+
+--- functions vs methods
+
+-------methods are functions that are defined inside a class 
+
+
+
+        #cool stufff --- whenever a constructor get called , the variable defined inside the constructor get defined in the form of a dict
+
+        -- for ex ,  >__dict__ = {'pin': ' ', 'balance'=0}
+                                    this is how a variable get initialized when a constructor is called( basically when a class is initiated)
+
+
+
+
+everything in python is an object
+
+hdfc = ATM()
+
+hdfc is refernce varaible that points to the object of the class ATM 
+
+self.__pin -- this is a way to make variables and methods in a class as private , but they are not fully private
+
+accessing private variable or methods
+_Class__attributename
+
+_ATM__pin
+
+
+
+self is hdfc object , everything is controlled or can be accessed by an object of the class only
+
+hdfc.pin
+
+there are magic methods 
+like __add__ , __subtract__ that we can use if we wish to create our own data type 
+
+

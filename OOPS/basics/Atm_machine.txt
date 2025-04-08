@@ -1,0 +1,5 @@
+def __init__ is a constructor
+---- constructor is a special method , the code inside the function is automatically executed whenever the class is initiated 
+
+
+#

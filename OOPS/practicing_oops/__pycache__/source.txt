@@ -1,0 +1,5 @@
+S101,John Doe,20,Math:A,Physics:B+,History:A-
+S102,Jane Smith,22,Biology:A,Math:B,Chemistry:B+
+S103,Emily Davis,19,English:A-,Philosophy:B,Math:A
+S104,Michael Brown,21,Physics:B-,Math:C,History:B+
+S105,Sarah Wilson,23,Chemistry:A-,Biology:B+,Physics:A

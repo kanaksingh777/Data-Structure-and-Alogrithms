@@ -1,0 +1,8 @@
+use of super keyword
+
+
+using super keyword u can invoke , (call) the methods or constructor of the parent class 
+we can't access attributes of the parent class as well
+
+
+#super keyword works inside the class only 

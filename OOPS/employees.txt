@@ -1,0 +1,3 @@
+Employee,John,30,50000
+Manager,Susan,45,80000,10000
+Developer,Alex,28,60000,Project1;Project2

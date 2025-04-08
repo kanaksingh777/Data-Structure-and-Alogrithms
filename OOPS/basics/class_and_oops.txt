@@ -1,0 +1,100 @@
+oops notes
+
+
+-- everything in python is an object
+
+-- L  = [1,23,4,5]
+
+this L is a object 
+
+it can also be initialized as L = list()
+
+
+
+
+
+FUNCTION VS METHOD 
+
+--method is a function definded under a class , and can be accessed by the object of the class only
+
+
+
+#constructor is a method that doesn't give control to the user 
+
+
+UNDERSTANDING ---self : 
+def __init__(self): 
+this self and sbi have the same address let's say ---2273472035680
+
+which basically means sbi is self 
+# the object that we are currently working with is self 
+
+sbi =ATM()
+
+
+
+
+----------------------------XXX--------------
+
+#ENCAPSULATION :
+an object can only use the variable that is data and method inside a class,
+but sometimes we don't want to user to see the data or certain method, we make those variable private by using  double underscore
+
+   self.pin =" " 
+   self.__pin =" "
+
+
+java -private ---access modifier 
+
+
+the moment we put __pin  , inside python it will get converted into _Atm__pin during execution
+
+# nothing in python is truely private 
+
+
+#reference variable 
+
+if we create like
+Atm()-- in this an object is alredy created but it can't be accessed 
+
+--when we create sbi = Atm() 
+sbi is not actually the object
+sbi is a variable to store the object Atm()  ---the variable that is used to store the object is called REFERENCE variable
+
+
+call by reference
+pass by reference 
+
+
+# class k objects are also mutable like list dictionary and sets 
+
+
+loops over objects 
+
+
+L = [c1,c2,c3]
+
+# for i in L :
+#     print(i.name, i.age)
+
+for i in L:
+    i.intro()
+
+
+STATIC --
+
+so let's say in the ATM CLASS --- whenever a new user comes in , each object should have a serial number in an order 
+
+instance variable ==== vo variable jo har bar define hota h , means the variable value for each object is different 
+
+the condition - 
+
+class variable = me need to maintain a counter
+isfc code for a branch cust will be the same == class variable /static variable
+
+
+instance variable are inside constructor 
+statiic / class variable are in the class like
+
+class ATM()
+    counter =1 -- this is a static variable

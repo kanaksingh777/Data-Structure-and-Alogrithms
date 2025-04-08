@@ -1,0 +1,8 @@
+Zoo 1
+1 lion Simba
+1 lion Nala
+Zoo 2
+2 Lion Mufasa
+1 Parrot Polly 
+2 Parrot Rio
+2 Parrot Coco
