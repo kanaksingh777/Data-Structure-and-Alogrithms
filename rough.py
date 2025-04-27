@@ -1,10 +1,9 @@
+l1 = [2,4,6]
+l2 = [3,6,9]
 
-s = [[1,2,3],
-     [4,5,6]]
+res = []
 
-rows = {}
+for i in range(len(l1)):
+    res.append(l1[i] * l2[i])
 
-for i in range(len(s)+1):
-    for j in range(i):
-        if s[i] not in rows.keys():
-            rows[i] = rows.get(i,0) +s[i]
+print(res)
